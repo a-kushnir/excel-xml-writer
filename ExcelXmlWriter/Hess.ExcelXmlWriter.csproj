@@ -1,0 +1,102 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{911336CE-1270-4D03-B89F-DF06A4542A1A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hess.ExcelXmlWriter</RootNamespace>
+    <AssemblyName>Hess.ExcelXmlWriter</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\CarlosAg.ExcelXmlWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataType.cs" />
+    <Compile Include="ExcelLinksCollection.cs" />
+    <Compile Include="ExcelWorkbook.cs" />
+    <Compile Include="ExcelXmlWriterException.cs" />
+    <Compile Include="FormattedText.cs" />
+    <Compile Include="FormattedTextItem.cs" />
+    <Compile Include="LineStyleOption.cs" />
+    <Compile Include="Orientation.cs" />
+    <Compile Include="PrintCommentsLayout.cs" />
+    <Compile Include="PrintErrorsOption.cs" />
+    <Compile Include="SpreadSheetComponentOptions.cs" />
+    <Compile Include="SpreadSheetToolbar.cs" />
+    <Compile Include="StyleHorizontalAlignment.cs" />
+    <Compile Include="StyleInteriorPattern.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="IXmlWriter.cs" />
+    <Compile Include="StylePosition.cs" />
+    <Compile Include="StyleReadingOrder.cs" />
+    <Compile Include="StyleVerticalAlignment.cs" />
+    <Compile Include="WorksheetAutoFilter.cs" />
+    <Compile Include="WorksheetCell.cs" />
+    <Compile Include="WorksheetCellCollection.cs" />
+    <Compile Include="WorksheetCellData.cs" />
+    <Compile Include="WorksheetCollection.cs" />
+    <Compile Include="WorksheetColumn.cs" />
+    <Compile Include="DocumentProperties.cs" />
+    <Compile Include="WorksheetColumnCollection.cs" />
+    <Compile Include="WorksheetComment.cs" />
+    <Compile Include="WorksheetHyperlink.cs" />
+    <Compile Include="WorksheetHyperlinkType.cs" />
+    <Compile Include="WorksheetOptions.cs" />
+    <Compile Include="WorksheetPageFooter.cs" />
+    <Compile Include="WorksheetPageHeader.cs" />
+    <Compile Include="WorksheetPageLayout.cs" />
+    <Compile Include="WorksheetPageMargins.cs" />
+    <Compile Include="WorksheetPageSetup.cs" />
+    <Compile Include="WorksheetPrintOptions.cs" />
+    <Compile Include="WorksheetRow.cs" />
+    <Compile Include="WorksheetRowCollection.cs" />
+    <Compile Include="WorksheetStyleAlignment.cs" />
+    <Compile Include="WorksheetStyleBorder.cs" />
+    <Compile Include="WorksheetStyleBorderCollection.cs" />
+    <Compile Include="WorksheetStyleCollection.cs" />
+    <Compile Include="WorksheetStyleInterior.cs" />
+    <Compile Include="WorksheetTable.cs" />
+    <Compile Include="Workbook.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Worksheet.cs" />
+    <Compile Include="WorksheetStyle.cs" />
+    <Compile Include="WorksheetStyleFont.cs" />
+    <Compile Include="WorksheetTableCellCollection.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
