@@ -16,7 +16,6 @@ namespace Hess.ExcelXmlWriter
         private readonly WorksheetStyleCollection m_Styles;
         private readonly WorksheetCollection m_Worksheets;
         private Worksheet m_ActiveWorksheet;
-        /*public .ExcelXmlWriter.WorksheetNamedRangeCollection Names { get; }*/
 
         #endregion
 
@@ -92,7 +91,7 @@ namespace Hess.ExcelXmlWriter
         {
             if (!String.IsNullOrEmpty(name))
                 foreach (Worksheet ws in m_Worksheets)
-                    if (name == ws.Name) // Note: Maybe case unsensitivity
+                    if (name == ws.Name)
                         throw new ArgumentException("An worksheet with the same name has already been added.");
 
 			Worksheet worksheet = new Worksheet(this, name);
@@ -104,7 +103,7 @@ namespace Hess.ExcelXmlWriter
         {
             if (!String.IsNullOrEmpty(name))
                 foreach (Worksheet ws in m_Worksheets)
-                    if (name == ws.Name) // Note: Maybe case unsensitivity
+                    if (name == ws.Name)
                         throw new ArgumentException("An worksheet with the same name has already been added.");
 
             Worksheet worksheet = new Worksheet(this, name);

@@ -40,7 +40,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataType.cs" />
-    <Compile Include="ExcelLinksCollection.cs" />
     <Compile Include="ExcelWorkbook.cs" />
     <Compile Include="ExcelXmlWriterException.cs" />
     <Compile Include="FormattedText.cs" />
