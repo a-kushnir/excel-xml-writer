@@ -24,7 +24,7 @@ namespace Hess.ExcelXmlWriter
         public Workbook()
         {
             m_SpreadSheetComponentOptions = new SpreadSheetComponentOptions();
-            m_ExcelWorkbook = new ExcelWorkbook(this);
+            m_ExcelWorkbook = new ExcelWorkbook();
             m_Properties = new DocumentProperties();
             m_Styles = new WorksheetStyleCollection(this);
             m_Worksheets = new WorksheetCollection(this);
