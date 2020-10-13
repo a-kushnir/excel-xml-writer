@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled throughHess the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Hess.ExcelXmlWriter")]
+[assembly: AssemblyTitle("ExcelXmlWriter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Hess")]
-[assembly: AssemblyProduct("Hess.ExcelXmlWriter")]
-[assembly: AssemblyCopyright("Copyright © Hess 2008")]
+[assembly: AssemblyCompany("Andrew Kushnir")]
+[assembly: AssemblyProduct("ExcelXmlWriter")]
+[assembly: AssemblyCopyright("Copyright © Andrew Kushnir 2008")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

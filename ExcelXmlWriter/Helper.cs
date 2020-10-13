@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Web;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     internal class Helper
     {

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetStyleCollection : Dictionary<String, WorksheetStyle>, IXmlWriter
     {

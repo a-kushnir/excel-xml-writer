@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     internal class FormattedText : IXmlWriter
     {

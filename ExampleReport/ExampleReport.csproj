@@ -40,9 +40,9 @@
     <Compile Include="ExcelReport.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExcelXmlWriter\Hess.ExcelXmlWriter.csproj">
+    <ProjectReference Include="..\ExcelXmlWriter\ExcelXmlWriter.csproj">
       <Project>{911336CE-1270-4D03-B89F-DF06A4542A1A}</Project>
-      <Name>Hess.ExcelXmlWriter</Name>
+      <Name>ExcelXmlWriter</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

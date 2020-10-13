@@ -1,7 +1,7 @@
 using System;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetAutoFilter: IXmlWriter
     {

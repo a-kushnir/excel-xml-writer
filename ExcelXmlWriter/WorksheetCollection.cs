@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetCollection : List<Worksheet>, IXmlWriter
     {

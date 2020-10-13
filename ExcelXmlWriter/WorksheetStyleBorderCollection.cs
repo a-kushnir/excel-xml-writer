@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetStyleBorderCollection: Dictionary<StylePosition, WorksheetStyleBorder>, IXmlWriter, ICloneable
     {

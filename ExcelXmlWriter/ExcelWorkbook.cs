@@ -1,6 +1,6 @@
 ﻿using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class ExcelWorkbook
     {

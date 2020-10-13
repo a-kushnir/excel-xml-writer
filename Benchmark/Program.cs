@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using Hess.ExcelXmlWriter;
+using ExcelXmlWriter;
 
 namespace Benchmark
 {
@@ -199,7 +199,7 @@ namespace Benchmark
 				if (String.IsNullOrEmpty(baseDirectory))
 					baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 				if (String.IsNullOrEmpty(testDirectory))
-					testDirectory = Path.Combine(baseDirectory, String.Format("Hess.ExcelXmlBenchmark{0}", DateTime.Now.ToString("yyyyMMddhhmmss"))); 
+					testDirectory = Path.Combine(baseDirectory, String.Format("ExcelXmlBenchmark{0}", DateTime.Now.ToString("yyyyMMddhhmmss"))); 
 
 				StartTest("Generating xml data to file");
 			    String filename = Path.Combine(testDirectory, String.Format(@"test#{0}.xml", fileIndex));
@@ -272,7 +272,7 @@ namespace Benchmark
 		{
 			Console.ForegroundColor = ConsoleColor.Gray;
 			Console.WriteLine("=======================================");
-			Console.WriteLine(" Hess.ExcelXmlWriter benchmark utility");
+			Console.WriteLine("   ExcelXmlWriter benchmark utility");
 			Console.WriteLine("=======================================");
 			Console.ForegroundColor = ConsoleColor.White;
 		}

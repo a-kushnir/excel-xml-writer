@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Xml;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetStyleInterior: IXmlWriter, ICloneable
     {

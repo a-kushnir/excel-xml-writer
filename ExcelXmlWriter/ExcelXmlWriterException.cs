@@ -1,6 +1,6 @@
 using System;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     /// <summary>
     /// Base exception for all ExcelXmlWriter Library exceptions.

@@ -1,6 +1,6 @@
 using System;
 
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public class WorksheetTableCellCollection
     {

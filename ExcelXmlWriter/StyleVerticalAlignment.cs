@@ -1,4 +1,4 @@
-namespace Hess.ExcelXmlWriter
+namespace ExcelXmlWriter
 {
     public enum StyleVerticalAlignment
     {

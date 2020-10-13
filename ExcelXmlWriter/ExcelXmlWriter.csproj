@@ -7,8 +7,8 @@
     <ProjectGuid>{911336CE-1270-4D03-B89F-DF06A4542A1A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hess.ExcelXmlWriter</RootNamespace>
-    <AssemblyName>Hess.ExcelXmlWriter</AssemblyName>
+    <RootNamespace>ExcelXmlWriter</RootNamespace>
+    <AssemblyName>ExcelXmlWriter</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,10 +28,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CarlosAg.ExcelXmlWriter, Version=1.0.0.6, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\CarlosAg.ExcelXmlWriter.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
