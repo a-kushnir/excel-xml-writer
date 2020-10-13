@@ -24,7 +24,7 @@ namespace ExampleReport
         public void Initialise()
         {
             mWorkbook = new Workbook();
-            mWorkbook.Properties.Create("Hess", "10.0");
+            mWorkbook.Properties.Create("Andrew Kushnir", "10.0");
 
             mWsDetail = mWorkbook.NewWorksheet("Detail");
             mWsStatistic = mWorkbook.NewWorksheet("Statistic");
@@ -96,7 +96,7 @@ namespace ExampleReport
             row.NewCell(validationErrors.ToString(), DataType.Number, style);
             row.NewCell(nolockErrors.ToString(), DataType.Number, style);
             row.NewCell(notExistsErrors.ToString(), DataType.Number, style);
-            row.NewCell(cursorErrors.ToString(), DataType.Number, style).Comment.Create("Hess", "test comment\ntest comment");
+            row.NewCell(cursorErrors.ToString(), DataType.Number, style).Comment.Create("Andrew Kushnir", "test comment\ntest comment");
         }
 
         public void Export(String filename)

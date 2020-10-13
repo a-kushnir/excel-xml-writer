@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hess.ExcelXmlWriter", "ExcelXmlWriter\Hess.ExcelXmlWriter.csproj", "{911336CE-1270-4D03-B89F-DF06A4542A1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelXmlWriter", "ExcelXmlWriter\ExcelXmlWriter.csproj", "{911336CE-1270-4D03-B89F-DF06A4542A1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleReport", "ExampleReport\ExampleReport.csproj", "{A650417F-F2BF-4B4E-A51A-924A0F691310}"
 EndProject
