@@ -8,7 +8,7 @@
 [![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2005-blue)](https://img.shields.io/badge/Visual%20Studio-2005-blue)
 [![License](https://img.shields.io/github/license/a-kushnir/x-stocks)](https://img.shields.io/github/license/a-kushnir/x-stocks)
 
-Excel Xml Writer is a C# library that allows generating Excel Workbooks using XML internal format
+Excel Xml Writer is a C# library that allows generating Excel Workbooks using XML Spreadsheet 2003 format
 
 # Table of contents
 
