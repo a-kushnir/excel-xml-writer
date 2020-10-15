@@ -67,3 +67,4 @@ Excel Xml Writer is under the MIT license. See the [LICENSE](https://github.com/
 [(Back to top)](#table-of-contents)
 
 * [Source code](https://github.com/a-kushnir/excel-xml-writer)
+* [Similar project](https://www.carlosag.net/Tools/ExcelXmlWriter/) (CarlosAg Xml Writer Library)
