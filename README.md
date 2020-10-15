@@ -12,10 +12,21 @@ Excel Xml Writer is a C# library that allows generating Excel Workbooks using XM
 
 # Table of contents
 
+- [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [License](#license)
 - [Links](#links)
+
+# Screenshots
+
+[(Back to top)](#table-of-contents)
+
+Examples of generated Excel Spreadsheets:
+
+![Screenshot 1](https://user-images.githubusercontent.com/1454297/96068688-d7c7b600-0e59-11eb-973d-ce5bed4de338.png)
+
+![Screenshot 2](https://user-images.githubusercontent.com/1454297/96068689-d7c7b600-0e59-11eb-8f15-0908a81a16ae.png)
 
 # Requirements
 
