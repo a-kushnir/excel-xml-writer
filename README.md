@@ -42,7 +42,7 @@ The library is optimized for creating huge Excel Files. Benchmark utility is cre
 
 * Windows
 * Visual Studio 2005 or later
-* .NET Framework 2.0, [download](https://www.microsoft.com/en-in/download/details.aspx?id=6523)
+* .NET Framework 2.0 or later, [download](https://www.microsoft.com/en-in/download/details.aspx?id=6523)
 * Git
 
 # Installation
@@ -56,7 +56,7 @@ To build and run this application locally, you'll need latest versions of Git. F
 $ git clone https://github.com/a-kushnir/excel-xml-writer.git
 ```
 
-Compile it using Visual Studio with .NET Framework 2.0
+Compile it using Visual Studio.
 
 # License
 
