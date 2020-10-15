@@ -28,6 +28,12 @@ Examples of generated Excel Spreadsheets:
 
 ![Screenshot 2](https://user-images.githubusercontent.com/1454297/96068689-d7c7b600-0e59-11eb-8f15-0908a81a16ae.png)
 
+## Benchmark Utility
+
+The library is optimized for creating huge Excel Files. Benchmark utility is created for testing changes before committing them to git repository.
+
+![Benchmark](https://user-images.githubusercontent.com/1454297/96069252-07c38900-0e5b-11eb-9175-638dde890389.png)
+
 # Requirements
 
 [(Back to top)](#table-of-contents)
